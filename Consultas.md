@@ -81,3 +81,10 @@ WHERE LimiteCredito > 2500;
 
 ### RESULTADOS 
 
+***Consulta 1 ->***
+
+
+
+<img src="https://github.com/aaronbblanco/TrabajoSQL/blob/master/RESULTADOS/sql1.PNG">
+<img src="">
+>***Este sería el resultado que obtenemos al hacer la consulta 1.***
