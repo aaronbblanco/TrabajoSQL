@@ -1,3 +1,6 @@
+### CONSULTAS
+
+
 ***1. Obtener de que pedido se saca mas dinero : 
 Con este indicador obtenemos las ventas para cada pedido separadas por cada representante 
 (En este caso usaremos el Representante con el codigo '103'.***
@@ -60,8 +63,8 @@ WHERE CodCliente IN (SELECT CodCliente
  La consulta anterior se puede hacer tambien mediante una consulta simple.***
  ```mysql
  SELECT *
- FROM Pedidos P, Clientes C
- WHERE P.CodCliente = C.CodCliente
+ FROM Pedidos Ped, Clientes Clien
+ WHERE Ped.CodCliente = Clien.CodCliente
  AND LimiteCredito > 2500;
  ```
  >Mostraria los mismos datos que el KPI anterior.
@@ -74,3 +77,7 @@ FROM Pedidos INNER JOIN Clientes USING(CodCliente)
 WHERE LimiteCredito > 2500;
 ```
 >Mostraria los mismos datos que el KPI anterior.
+
+
+### RESULTADOS 
+
