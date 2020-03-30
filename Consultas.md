@@ -1,4 +1,4 @@
-### CONSULTAS
+### CONSULTAS 
 
 
 ***1. Obtener de que pedido se saca mas dinero : 
@@ -83,8 +83,9 @@ WHERE LimiteCredito > 2500;
 
 ***Consulta 1 ->***
 
+![sql1](https://github.com/aaronbblanco/TrabajoSQL/blob/master/RESULTADOS/sql1.PNG)
+
+![sql2](https://github.com/aaronbblanco/TrabajoSQL/blob/master/RESULTADOS/mysql1resultado.PNG)
 
 
-<img src="https://github.com/aaronbblanco/TrabajoSQL/blob/master/RESULTADOS/sql1.PNG">
-<img src="">
->***Este sería el resultado que obtenemos al hacer la consulta 1.***
+***Este sería el resultado que obtenemos al hacer la consulta 1.***
