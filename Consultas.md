@@ -25,7 +25,7 @@ WHERE 0.6*Objetivo < (SELECT min(sueldo)
                                       AND (Empleados.Categoria = 'Representantes')
                                       GROUP BY Empleados.Oficina);
  ```
- > La subconsulta selecciona el sueldo minimo de los empleados y comprueba si superan el 50% de los objetivos de la oficina , agrupandolos por oficinas.
+ > La subconsulta selecciona el sueldo minimo de los empleados y comprueba si superan el 60% de los objetivos de la oficina , agrupandolos por oficinas.
  La consulta mostrara el codigo de Oficina y la ciudad de dicha oficina.
 
  ***3.Productos que no se vendieron : 
@@ -85,7 +85,47 @@ WHERE LimiteCredito > 2500;
 
 ![sql1](https://github.com/aaronbblanco/TrabajoSQL/blob/master/RESULTADOS/sql1.PNG)
 
-![sql2](https://github.com/aaronbblanco/TrabajoSQL/blob/master/RESULTADOS/mysql1resultado.PNG)
+![sql1resultado](https://github.com/aaronbblanco/TrabajoSQL/blob/master/RESULTADOS/mysql1resultado.PNG)
 
 
-***Este sería el resultado que obtenemos al hacer la consulta 1.***
+> ***Este sería el resultado que obtenemos al ejecutar la consulta 1.***
+
+***Consulta 2 ->***
+
+![sql2](https://github.com/aaronbblanco/TrabajoSQL/blob/master/RESULTADOS/sql2.PNG)
+
+![sql2resultado](https://github.com/aaronbblanco/TrabajoSQL/blob/master/RESULTADOS/mysql2resultado.PNG)
+
+> ***Este sería el resultado que obtenemos al ejecutar la consulta 2.***
+
+***Consulta 3 ->***
+
+***\- 3.1***
+
+![sql3](https://github.com/aaronbblanco/TrabajoSQL/blob/master/RESULTADOS/sql3.PNG)
+
+***\- 3.2***
+
+![sql3.1](https://github.com/aaronbblanco/TrabajoSQL/blob/master/RESULTADOS/sql3.1.PNG)
+
+----
+
+![sql3.resultado](https://github.com/aaronbblanco/TrabajoSQL/blob/master/RESULTADOS/mysql3resultado.PNG)
+
+***Consulta 4 ->***
+
+***\- 4.1***
+
+![sql4.1](https://github.com/aaronbblanco/TrabajoSQL/blob/master/RESULTADOS/sql4.PNG)
+
+***\- 4.2***
+
+![sql3.1](https://github.com/aaronbblanco/TrabajoSQL/blob/master/RESULTADOS/sql4.2.PNG)
+
+***\- 4.3***
+
+![sql3.1](https://github.com/aaronbblanco/TrabajoSQL/blob/master/RESULTADOS/sql4.3.PNG)
+
+----
+
+![sql3.1](https://github.com/aaronbblanco/TrabajoSQL/blob/master/RESULTADOS/mysql4resultado.PNG)
